@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.HeaderMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(211,17,112) , rgb(78,14,77));
+}
+
+.NavClass{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NavLogoClass{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.NavBarClass{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: end;
+}
+
+.HeaderContent{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderTextClass{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.HeaderTextClass h1{
+    font-size: 70px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.HeaderTextClass h3{
+    margin-top: -15px;
+    font-size: 35px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.HeaderTextClass button{
+    border: none;
+    background-color: rgb(252,10,126);
+    width: 160px;
+    height: 80px;
+    color: white;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.6s all;
+}
+
+.HeaderTextClass button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.6s all;
+}
+
+.HeaderLogoClass{
+    width: 46%;
+}
