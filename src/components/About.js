@@ -1,10 +1,19 @@
+import "../styles/AboutStyle.css"
+import AboutImage from "../materials/about.png"
 function About() {
-    return (
-      <div>
-          <h1>About</h1>
+  return (
+    <div className="AboutMainClass">
+      <div className="AboutClass">
+        <div className="AboutTextClass">
+          <h3>Be Classy</h3>
+          <h1>This Landing Page Will Showcase Your App <br /> In A Classy Way.</h1>
+        </div>
+        <div className="AboutImageClass">
+          <img src={AboutImage} alt="" />
+        </div>
       </div>
-    );
-  }
-  
-  export default About;
-  
+    </div>
+  );
+}
+
+export default About;

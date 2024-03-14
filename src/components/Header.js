@@ -5,13 +5,15 @@ function Header() {
         <div className="HeaderMain">
             <div className="NavClass">
                 <div className="NavLogoClass">
-                    <h3>ClassApp</h3>
+                    <h1>Taha</h1>
                 </div>
                 <div className="NavBarClass">
-                    <button>About</button>
-                    <button>Features</button>
-                    <button>How To Use</button>
-                    <button>Download</button>
+                    <div className="NavButtons">
+                        <button>About</button>
+                        <button>Features</button>
+                        <button>How To Use</button>
+                        <button>Download</button>
+                    </div>
                 </div>
             </div>
             <div className="HeaderContent">
