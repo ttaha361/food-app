@@ -1,4 +1,5 @@
 import "../styles/HeaderStyle.css"
+import { Link } from 'react-scroll'
 import HeaderImage from "../materials/header.png"
 function Header() {
     return (
@@ -9,10 +10,18 @@ function Header() {
                 </div>
                 <div className="NavBarClass">
                     <div className="NavButtons">
-                        <button>About</button>
-                        <button>Features</button>
-                        <button>How To Use</button>
-                        <button>Download</button>
+                        <Link to="About" smooth={true} duration={700}>
+                            About
+                        </Link>
+                        <Link to="Features" smooth={true} duration={1000}>
+                            Features
+                        </Link>
+                        <Link to="HowToUse" smooth={true} duration={2000}>
+                            How To Use
+                        </Link>
+                        <Link to="Download" smooth={true} duration={2500}>
+                            Download
+                        </Link>
                     </div>
                 </div>
             </div>

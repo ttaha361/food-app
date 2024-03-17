@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.DownloadMainContainer {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Gothic A1", sans-serif;
+    background-image: linear-gradient(to right, rgb(211, 17, 112), rgb(120,38,174));
+    height: 500px;
+}
+
+
+.DownloadButtonsClass{
+    display: flex;
+    width: 22%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.DownloadButtonsClass button{
+    font-family: "Gothic A1", sans-serif;
+    border-color: rgba(255, 255, 255, 0.185);
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    transition: 0.4s all;
+}
+.DownloadButtonsClass button:hover{
+    border-color: white;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+#pinkbutton{
+    border: none;
+    background-color: rgb(211, 17, 112);
+    transition: 0.4s all;
+}
+#pinkbutton:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}

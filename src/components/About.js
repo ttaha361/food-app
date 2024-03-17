@@ -2,7 +2,7 @@ import "../styles/AboutStyle.css"
 import AboutImage from "../materials/about.png"
 function About() {
   return (
-    <div className="AboutMainClass">
+    <div id="About" className="AboutMainClass">
       <div className="AboutClass">
         <div className="AboutTextClass">
           <h3>Be Classy</h3>

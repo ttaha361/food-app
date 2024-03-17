@@ -8,7 +8,7 @@ import sicon3 from "../materials/icon-data.svg"
 
 function Features() {
   return (
-    <div className="MainFeaturesClass">
+    <div id="Features" className="MainFeaturesClass">
       <div className="TextImageContainer">
         <div className="FeatureClass">
           <div className="FeatureTextLeft">

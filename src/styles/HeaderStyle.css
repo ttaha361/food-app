@@ -40,7 +40,7 @@
     justify-content: space-between;
     width: 57%;
 }
-.NavButtons button{
+.NavButtons a{
     background: none;
     color:white;
     font-size: 16px;
@@ -52,7 +52,7 @@
     transition: 0.4s all;
 }
 
-.NavButtons button:hover{
+.NavButtons a:hover{
     cursor: pointer;
     transition: 0.4s all;
     border-bottom: 1px solid;

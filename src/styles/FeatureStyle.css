@@ -117,3 +117,21 @@
     font-size: 60px;
     font-weight: 300;
 }
+
+
+.howtofooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125%;
+    overflow: hidden;
+}
+
+.howtofooter img{
+    width: 80%;
+}
+
+#footerhowto{
+    width: 100%;
+}
